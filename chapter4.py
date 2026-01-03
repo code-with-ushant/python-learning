@@ -1,0 +1,26 @@
+# a=(2,3,4,5,6,6)
+# print(a.count(6))
+# print(a.index(4))
+# # print(())*a)
+# slice = a[2:4]
+# print(slice)
+# print(a)
+fruits =[]
+f1=input("Enter fruit name :")
+f2=input("Enter fruit name :")
+f3=input("Enter fruit name :")
+f4=input("Enter fruit name :")
+# f5=input("Enter fruit name :")
+# f6=input("Enter fruit name :")
+# f7=input("Enter fruit name :")
+fruits.append(f1)
+fruits.append(f2)
+fruits.append(f3)
+fruits.append(f4)
+# fruits.append(f5)
+# fruits.append(f6)
+# fruits.append(f7)
+fruits.sort()
+print(fruits)
+l=[1,2,3,4,5,6,7]
+print(sum(l))                #it use to find the sum of list
